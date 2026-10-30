@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "description": "SkinCart \u2014 one selfie \u2192 YouCam Skin AI scores \u2192 matched products \u2192 virtual try-on. Built for the YouCam API Skin AI & eCommerce VTO Hackathon (Devpost).",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  },
+  "name": "skincart",
+  "private": true,
+  "scripts": {
+    "build": "node init && next build",
+    "dev": "node init && next dev",
+    "lint": "next lint",
+    "start": "node init && next start"
+  },
+  "version": "0.1.0"
+}
