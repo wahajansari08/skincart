@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# env files — the YouCam API key must NEVER be committed (see API-RESEARCH.md §7/R7)
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.log
